@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krunal Dey - Contact & Social Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #f9fafe, #e0e7ff);
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(45deg, #0078d7, #0056a8);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .content {
+            padding: 25px;
+        }
+        .content h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #444;
+        }
+        .contact-info, .social-media {
+            margin-top: 25px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: #f1f5ff;
+            padding: 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-item:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+        .contact-item i {
+            font-size: 1.8rem;
+            color: #0078d7;
+            margin-right: 15px;
+        }
+        .contact-item a {
+            color: #0078d7;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .contact-item p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .save-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #0078d7, #0056a8);
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .save-button i {
+            margin-right: 8px;
+        }
+        .save-button:hover {
+            background: linear-gradient(45deg, #0056a8, #003f7f);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .social-media ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .social-media li {
+            flex: 1;
+            text-align: center;
+        }
+        .social-media a {
+            display: inline-flex;
+            align-items: center;
+            color: #0078d7;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        .social-media a i {
+            font-size: 1.8rem;
+            margin-right: 8px;
+        }
+        .social-media a:hover {
+            color: #0056a8;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f1f1f1;
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 25px;
+        }
+        /* Hover effect for the save button */
+        .save-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #0078d7, #0056a8);
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .save-button:hover {
+            transform: scale(1.03); /* Scale up effect */
+            background: linear-gradient(45deg, #0056a8, #003f7f);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Hover effect for social media links */
+        .social-media a {
+            display: inline-flex;
+            align-items: center;
+            color: #0078d7;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            padding: 10px; /* Add some padding */
+            border-radius: 10px; /* Rounded corners */
+            background: #f1f5ff; /* Background like contact info */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        .social-media a:hover {
+            transform: scale(1.03); /* Scale up effect */
+            color: #e91c71; /* Darker hover color */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Krunal Dey</h1>
+            <p>Software Engineer</p>
+        </header>
+        <div class="content">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="https://wa.me/7046689735" target="_blank">
+                        <i class="fa fa-whatsapp whatsapp" style="color: rgb(18, 140, 126);"></i>
+                        <p>+91 7046689735</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa fa-envelope-o" style="color: rgb(0, 122, 255);"></i>
+                    <a href="mailto:deykrunal71@gmail.com">deykrunal71@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa fa-address-card-o"></i>
+                    <p>204 Swayam Prakash, Gopipura, Surat, Gujarat, 395003, India</p>
+                </div>
+                <center>
+                <div claontact-item">
+                    <a href="https://drive.google.com/file/d/1r4XKMhfY5FRQ265pFE68P5q0LpvPxaV7/view?usp=sharing" 
+                       class="save-button" 
+                       target="_blank">
+                        <i class="fa fa-save" style="color: white;"></i><span style="color: white;">Click to Save Contact</span>
+                    </a>
+                </div></center> 
+            </div>
+
+            <div class="social-media">
+                <h2>Social Media</h2>
+                <ul>
+                    <li><a href="https://instagram.com/kunald.07" target="_blank">
+                        <i class="fa fa-instagram" style="font-size: 5rem;"></i><span><br>kunald.07</span></a>
+                    </li>
+                    <li><a href="https://www.snapchat.com/add/krunaldey?share_id=MXSjkUhWqMo&locale=en-IN" target="_blank">
+                        <i class="fa fa-snapchat" style="font-size: 5rem;"></i><span><br>krunaldey</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            &copy; 2024 Krunal Dey. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
+
